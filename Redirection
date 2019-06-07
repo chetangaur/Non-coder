@@ -1,0 +1,13 @@
+Assignment 1
+1.1). Run pinky command and redirect his output into file pinky.txt
+ Ans).   pinky > pinky.txt
+ 1.2). Run command 'adhoc'(doesn't matter is it present or not in your system) and redirect this command std error output to above file with maintaining the existing content of file.
+ Ans). adhoc 2>> pinky.txt
+ 1.3). Extract login column content from pinky.txt
+ Ans). cut -f 1 pinky.txt
+ 1.4). Redirect the output of above command (which you used for task 1.3 ) into login.txt file
+ Ans). cut -f 1 pinky.txt > login.txtcle
+ 2). Extract http word in every file under /etc/ directory and its recursive directory
+ Ans). grep -r http /etc/
+ 3). Try to send your command like free,uptime,iscpu output to mailid root@localhost and also try to attach a file with some demo content to above mailid.(you can check through comman mail or mutt)
+ Ans).
