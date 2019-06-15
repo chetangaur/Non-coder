@@ -1,0 +1,7 @@
+# Use command  
+    getent group name_of_group
+
+Alternative method
+
+# view group details in
+    /etc/group
